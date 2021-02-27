@@ -1,0 +1,62 @@
+#section1{
+  display: grid;
+  background:#000;
+  padding-top: 35px;
+  padding-bottom: 12px;
+}
+.dot {
+  height: 450px;
+  width: 450px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  margin: auto;
+  border-width: 10px;
+  position: relative;
+  border-color:#1CB5E0;
+  border-radius: 50%;
+  text-align: center;
+
+}
+.img1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110%;
+}
+.elements{
+  margin-left:35px;
+  margin-right:35px;
+  display: flex;
+  justify-content: space-around;
+}
+p{
+  color: white;
+  font-family: 'Montserrat', fantasy;
+  font-size: 6vw;
+  font-weight: bold;
+  padding-top: 70px;
+}
+#left{
+  text-align: center;
+
+}
+#right p{
+  text-align: center;
+  margin: auto;
+}
+#button1{
+  border-radius: 20px;
+  border-width: 3px;
+  border-color:#1CB5E0;
+  background-color: transparent;
+}
+
+#button1 p{
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin: 5px 15px;
+  padding-top: 0px;
+}

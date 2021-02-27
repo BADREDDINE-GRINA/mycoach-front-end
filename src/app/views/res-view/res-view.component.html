@@ -1,0 +1,11 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+<body>
+<app-sport-type-sec (newSportClickedEvent)="updateSport($event)"></app-sport-type-sec>
+<app-calendar-sec></app-calendar-sec>
+<app-coachs-list-sec (newCoachClickedEvent)="updateCoach($event)"></app-coachs-list-sec>
+
+<button id="reserverBtn" (click)="reserver()"><p>Réserver votre séance</p></button>
+
+</body>
+

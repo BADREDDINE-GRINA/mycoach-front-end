@@ -1,0 +1,52 @@
+#holeLogin{
+  background: black;
+
+}
+h4{
+  text-align: center;
+  color: white;
+  font-size:50px;
+  font-weight: bold;
+  padding-top: 80px;
+
+}
+label{
+  color: white;
+  padding-top: 20px;
+}
+input{
+  background: black;
+}
+#form{
+  width:60%;
+  margin: auto;
+  padding-top: 30px;
+}
+button{
+  border-radius: 20px;
+  border-width: 3px;
+  border-color:#1CB5E0;
+  background-color: transparent;
+  display: block;
+  margin: 20px auto;
+
+
+}
+
+button p{
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin: 3px 15px;
+  padding-top: 0px;
+}
+h5{
+  padding-top: 5px;
+  padding-bottom: 50px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+

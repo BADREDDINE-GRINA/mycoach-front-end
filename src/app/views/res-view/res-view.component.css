@@ -1,0 +1,30 @@
+#reserverBtn{
+  border-radius: 20px;
+  border-width: 3px;
+  border-color:#1CB5E0;
+  background-color: transparent;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+#reserverBtn p{
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin: 5px 15px;
+  padding-top: 0px;
+}
+
+body{
+  background: black;
+  text-align: center;
+  padding-top: 0;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  color: white;
+  font-weight: bolder;
+  padding-top: 20px;
+}

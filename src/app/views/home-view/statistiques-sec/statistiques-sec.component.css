@@ -1,0 +1,31 @@
+
+
+#facts-area{
+  padding-top:20px;
+  padding-bottom:20px;
+  background:#161616;
+  color: white;
+  font-family: 'Montserrat', fantasy;
+}
+
+#facts-area div div h1{
+  font-size: 32px;
+}
+#facts-area div div p{
+  font-size: 25px;
+}
+.single-fact {
+  text-align: center;
+}
+
+
+
+.single-fact h1 {
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .single-fact {
+    margin-bottom: 30px;
+  }
+}

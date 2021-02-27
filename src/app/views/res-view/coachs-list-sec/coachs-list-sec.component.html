@@ -1,0 +1,18 @@
+<div id="coachlist" >
+  <div class="card-container">
+
+    <div class="coachitem" *ngFor="let coach of CoachList" (click)="coachClicked(coach.id)">
+      <div class="card" id="card" style="width:300px; text-align: center">
+        <img class="card-img-top" src={{coach.image}}  style="max-width: 300px" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title" style="color: white">{{coach.lastName}} {{coach.firstName}}</h4>
+          <p class="card-text">{{coach.description}}</p>
+          <a id="btnProfile">See Profile</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,19 @@
+
+<div class="sportlist">
+  <div class="card-container">
+    <div  *ngFor="let sport of typeSportList"  class="sportitem" (click)="sportTypeClick(sport.id)" >
+
+     <div class="card" id="card">
+        <div class="card-body">
+          <h4 class="card-title">{{sport.nom}}</h4>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
