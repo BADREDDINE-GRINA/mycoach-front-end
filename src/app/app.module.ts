@@ -18,6 +18,7 @@ import { RegisterViewComponent } from './views/auth-view/register-view/register-
 import { CoachlistHomeSecComponent } from './views/home-view/coachlist-home-sec/coachlist-home-sec.component';
 import {FormsModule} from '@angular/forms';
 import {AuthComponent} from './views/auth-view/auth/auth.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 
@@ -51,6 +52,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClient,
     RouterModule.forRoot(appRoutes),
     FormsModule
   ],
